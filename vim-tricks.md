@@ -23,6 +23,21 @@
 - **O / o** - insert new line before/after
 - **P / p** - paste before/after
 
+## Navigation ##
+- **H** – Go to the first line of current screen.
+- **M** – Go to the middle line of current screen.
+- **L** – Go to the last line of current screen.
+- **ctrl+f** – Jump forward one full screen.
+- **ctrl+b** – Jump backwards one full screen
+- **ctrl+d** – Jump forward (down) a half screen
+- **ctrl+u** – Jump back (up) one half screen
+
+## Search ##
+- **f | F\<symbol>** – Forward/reverse search in string under cursor and jump TO \<symbol>
+- **t | T\<symbol>** – Forward/reverse search in string under cursor and jump BEFORE \<symbol>
+- **/ | ?\<pattern>** - Forward/reverse search throught all file. Use **n|N** for jumping between search results
+  
+  
 ## Macros ##
 Macro - sequence of commands you want to repeat
 
